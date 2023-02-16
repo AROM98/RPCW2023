@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título> TPC1</título>
+        <subtítulo> Site de hipopótamo e finalização do exercicio da aula </subtítulo>
+        <data> 2023-02-16 </data>
+        <autor>
+            <nome> André Rafael Olim Martins </nome>
+            <id> A84347 </id>
+            <gitlink> https://github.com/AROM98/RPCW2023 </gitlink>
+        </autor>
+        <uc> Representação e Processamento de Conhecimento na Web </uc>
+    </meta>
+    <resumo>
+        <p> No ficheiro <it>Hipopótamo.html</it> está o código para uma pagina simples de html com o tema de Hipopótamo. 
+            Esta contém algumas div e uma imagem.</p>
+        <p> No ficheiro <it>createcities.py</it> encontra-se o código para a resolução do exericio que envolver mais uns 
+            ciclos de forma a percorrer as ligações e fazer as correspondentes associações.</p>
+    </resumo>
+    <resultados>
+        <resultado path="Hipopotamo.xml"> Ficheiro de html da página do Hipopótamo. </resultado>
+        <resultado path="createcities.py"> Ficheiro de Pyhton com a resolução do exercicio de ligações começado na aula. </resultado>
+        <resultado path="mapa.json"> Ficheiro JSON com informação das cidades e ligações. </resultado>
+        <resultado path="mapa.html"> Ficheiro resultante do script desenvolvido em <it>createcities.py</it>. </resultado>
+    </resultados>
+</manifesto>
