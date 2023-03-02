@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifesto>
     <meta>
-        <título> TPC2</título>
-        <subtítulo> Servidor nodejs que responde com informação de arquivos </subtítulo>
-        <data> 2023-02-25 </data>
+        <título> TPC3</título>
+        <subtítulo> Arquivo de pessoas </subtítulo>
+        <data> 2023-03-02 </data>
         <autor>
             <nome> André Rafael Olim Martins </nome>
             <id> A84347 </id>
@@ -12,21 +12,18 @@
         <uc> Representação e Processamento de Conhecimento na Web </uc>
     </meta>
     <resumo>
-        <p> Para a criação dos ficheiros xml, que são compostos por cada elemento ARQELEM presente <it> arq.xml </it>
-        foi criado o <it> script.py </it> que usas as bibliotecas do lxml e beautifulsoup4.</p>
-        <p> Para a craição da pagina principal, foi criado o script presente em <it> createHtml.py </it>,
-        muito parecido com o que foi feito durante as aulas.</p>
-        <p> Para a transformação dos ficheiros xml em html foi usado uma especie de template de transformação, presente 
-        em <it> stylesheet.xslt</it>, que foi usado em conjunto com a biblioteca lxml.</p>
-        <p> Finalmente foi desenvolvido o servidor nodejs presente em <it> servidor.js </it> </p>
+        <p> Foi usado o json-server para obter os dados do aarquivo json com pedidos axios.</p>
+        <p> No ficheiro mypages.js foram criadas as varias paginas, a principal onde mostra as várias opções
+        de listagem disponíveis. As quais são, listar todas as pessoas, listagem por sexo com indicação da quantidade,
+        listagem por desporto, mostraado a quantidade de pessoas que frequenta cada um e finalmente o top 10 de 
+        profissões. Para cada respectiva opção foi criada uma pagina.</p>
+        <p> Numa listagem ao carregar na pessoa, é disponibilizada toda a informação sobre a mesma.</p>
+        <p> Finalmente foi desenvolvido o servidor nodejs onde estão definidas todas as rotas necessárias 
+        a este projecto.</it> </p>
     </resumo>
     <resultados>
-        <resultado path="arq.xml"> Ficheiro XML com informação dos arquivos. </resultado>
-        <resultado path="script.py"> Script de Pyhton que cria novos ficheiros xml apartir de cada entrada do <it>arq.xml</it>. </resultado>
-        <resultado path="createHtml.py"> Script de Pyhton que gera o html para a página principal. </resultado>
-        <resultado path="servidor.js"> Ficheiro do servidor de nodejs. </resultado>
-        <resultado path="stylesheet.xslt"> Ficheiro que descreve a transfomração dos ficheiros xml para html. </resultado>
-        <resultado path="arqs/"> directorio dos ficheiros xml criados. </resultado>
-        <resultado path="html/"> directorio dos ficheiros html criados. </resultado>
+        <resultado path="dataset-extra1.json"> Ficheiro JSON com os dados das pessoas. </resultado>
+        <resultado path="mypages.js"> Ficheiro auxiliar onde são criadas as paginas html. </resultado>
+        <resultado path="server.js"> Servidor de nodejs. </resultado>
     </resultados>
 </manifesto>
