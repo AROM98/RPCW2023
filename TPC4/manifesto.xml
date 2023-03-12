@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título> TPC4</título>
+        <subtítulo> To-DO List </subtítulo>
+        <data> 2023-03-12 </data>
+        <autor>
+            <nome> André Rafael Olim Martins </nome>
+            <id> A84347 </id>
+            <gitlink> https://github.com/AROM98/RPCW2023 </gitlink>
+        </autor>
+        <uc> Representação e Processamento de Conhecimento na Web </uc>
+    </meta>
+    <resumo>
+        <p> No ficheiro tarefas.json, estão descritas as tarefas armazenadas, estas contêm, um id, um autor,
+        uma data de finallização, um tipo, que pode ser escolhido dos predefinidos, e um estado.</p>
+        <p> Na página principal é possovel ver um form para criar uma nova tarefa, e duas tabelas lado a lado,
+        as quais contêm as tarefas por realizar e as concluidas.
+        Na tabelas das tarefas por fazer, existe 3 butões, um para dar como concluida, outro para editar os dados da tarefa,
+        e outro para apagar a tarefa da lista. Na tabela dos concluidos, apenas existe os ultimos 2.</p>
+        <p> Apesar de ser uma single page application, para as opções de editar e apagar, foram criadas paginas a parte,
+        uma para conter o form de edições e outra para confirmar a removção da tarefa. Estas páginas poderiam não ter 
+        sido feitas, porém achei que ficava melhor desta maneira.</p>
+    </resumo>
+    <resultados>
+        <resultado path="server.js"> Ficheiro com servidor de nodejs. </resultado>
+        <resultado path="static.js"> Ficheiro que carrega o w3.css e o favicon. </resultado>
+        <resultado path="templates.js"> Ficheiro auxiliar onde são criadas as paginas html. </resultado>
+        <resultado path="tarefas.json"> Servidor de nodejs. </resultado>
+        <resultado path="/public"> Pasta com favicon.png e w3.css. </resultado>
+    </resultados>
+</manifesto>

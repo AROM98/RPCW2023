@@ -1,0 +1,20 @@
+{
+  "tarefas": [
+    {
+      "id": "1",
+      "autor": "André",
+      "datafinal": "2023-03-30",
+      "descricao": "Limpar a casa",
+      "tipo": "Casa",
+      "estado": "por fazer"
+    },
+    {
+      "id": "2",
+      "autor": "Rafael",
+      "datafinal": "2023-03-13",
+      "descricao": "TPC4 de RPCW",
+      "tipo": "Emprego",
+      "estado": "concluido"
+    }
+  ]
+}
