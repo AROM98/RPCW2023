@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título> TPC5</título>
+        <subtítulo> To-DO List em Express </subtítulo>
+        <data> 2023-03-17 </data>
+        <autor>
+            <nome> André Rafael Olim Martins </nome>
+            <id> A84347 </id>
+            <gitlink> https://github.com/AROM98/RPCW2023 </gitlink>
+        </autor>
+        <uc> Representação e Processamento de Conhecimento na Web </uc>
+    </meta>
+    <resumo>
+        <p> No ficheiro tarefas.json, estão descritas as tarefas armazenadas, estas contêm, um id, um autor,
+        uma data de finallização, um tipo, que pode ser escolhido dos predefinidos, e um estado.</p>
+        <p> Na página principal é possovel ver um form para criar uma nova tarefa, e duas tabelas lado a lado,
+        as quais contêm as tarefas por realizar e as concluidas.
+        Na tabelas das tarefas por fazer, existe 3 butões, um para dar como concluida, outro para editar os dados da tarefa,
+        e outro para apagar a tarefa da lista. Na tabela dos concluidos, apenas existe os ultimos 2.</p>
+        <p>Esta é uma single page application, tudo as opções disponiveis são mostradas logo na pagina inicial.
+        Tirando a pagina de edição de uma tarefa que é uma pagina diferente, por razões de organização.</p>
+    </resumo>
+    <resultados>
+        <resultado path="app.js"> Ficheiro com servidor de nodejs. </resultado>
+        <resultado path="/controllers/"> Pasta com o controlador que faz pedidos ao json-server </resultado>
+        <resultado path="/routes/"> Pasta com as rotas definidas </resultado>
+        <resultado path="/views/"> Pasta com as views feitas em pug. </resultado>
+        <resultado path="/public"> Pasta com favicon.png e w3.css. </resultado>
+        <resultado path="tarefas.json"> Ficheiro JSON onde são armazenadas as tarefas </resultado>
+    </resultados>
+</manifesto>

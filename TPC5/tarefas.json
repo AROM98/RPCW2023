@@ -1,0 +1,28 @@
+{
+  "tarefas": [
+    {
+      "id": "2",
+      "autor": "Rafael",
+      "datafinal": "2023-03-13",
+      "descricao": "TPC4 de RPCW",
+      "tipo": "Emprego",
+      "estado": "concluido"
+    },
+    {
+      "id": "3",
+      "autor": "Rick Martinez",
+      "datafinal": "2023-03-30",
+      "descricao": "Genocide",
+      "tipo": "Pessoal",
+      "estado": "por fazer"
+    },
+    {
+      "id": "4",
+      "autor": "André ",
+      "datafinal": "2023-03-19",
+      "descricao": "TPC5 de RPCW",
+      "tipo": "Emprego",
+      "estado": "concluido"
+    }
+  ]
+}
