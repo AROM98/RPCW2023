@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <título> TPC6</título>
+        <subtítulo> Person List </subtítulo>
+        <data> 2023-03-26 </data>
+        <autor>
+            <nome> André Rafael Olim Martins </nome>
+            <id> A84347 </id>
+            <gitlink> https://github.com/AROM98/RPCW2023 </gitlink>
+        </autor>
+        <uc> Representação e Processamento de Conhecimento na Web </uc>
+    </meta>
+    <resumo>
+        <p> No ficheiro de dados pessoas.json, foram feitas algumas altereções para que a informação seja manifesto
+        uniforme. Uma destas alterações foi mudar o campo de BI, CC para apenas cc, outra  foi a maneira de como "descrição",
+        estava escritas entre outras pequenas alterações do mesmo genero.</p>
+        <p> Foi entaõ criado o projecto com suporte do Express e alteados os ficheiros app.js, www para o servidor apenas correr.
+        Foi instalada o modulo mongoose e feito o controller pessoa e o model pessoa. Seguidamente foram feitas as rotas no ficheiro
+        index.js e finalmente as paginas nos ficheiros pugs que se encontram na pasta das views.</p>
+    </resumo>
+    <resultados>
+        <resultado path="/pessoas/app.js"> Ficheiro com servidor de nodejs. </resultado>
+        <resultado path="/pessoas/controllers/"> Pasta com o controlador que usa mongoose para comunicar com o MongoDB </resultado>
+        <resultado path="/pessoas/routes/"> Pasta com as rotas definidas, apenas foi usado index.js </resultado>
+        <resultado path="/pessoas/views/"> Pasta com as views feitas em pug. </resultado>
+        <resultado path="/pessoas/public"> Pasta com favicon.png e w3.css. </resultado>
+        <resultado path="pessoas.json"> Ficheiro JSON onde são armazenadas as pessoas </resultado>
+    </resultados>
+</manifesto>
